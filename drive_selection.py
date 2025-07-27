@@ -1,6 +1,9 @@
-age=20  
-## exampe age. 
-if age>=18:
-    print("you are eligible to vote")
+age=0
+if (age>100):
+    print("The person is too old")
+elif(age==100):
+    print("The person is not too old")
+elif(age==0):
+    print("Print the code")
 else:
-    print("you are not eligible to vote")
+    print("The person is old")
