@@ -1,0 +1,15 @@
+print("Welcome to the Student Information Collector!")
+student_fullname = str(input("Enter your full name:"))
+student_age = int(input("Enter your age:"))
+student_percentage = float(input("Enter your enrolled percentage:"))
+student_enrolled = str(input("Are you enrolled in the course? (yes/no):"))
+student_email = str(input("Enter your email address:"))
+print("-----Student Summary-----")
+if student_percentage>=40:
+    print("Full Name:", student_fullname )
+    print("Age:", student_age )
+    print("Enrolled Percentage:", student_percentage)
+    print("Enrolled Status:", student_enrolled)
+    print("Email:", student_email)
+else:
+    print("student is failed")
